@@ -1,0 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  height: 120px; }
+  header .headerContainer .navbar .container-fluid .navbar-brand img {
+    width: 200px; }
