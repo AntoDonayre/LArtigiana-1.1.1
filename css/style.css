@@ -78,6 +78,28 @@ main {
           transition: 2s; }
           main .mainContainer .rigthContainer .imgContainer img:hover {
             transform: rotate(180deg); }
+  main .mainMenuContainer {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    main .mainMenuContainer .textMenu h3 {
+      color: #FFFDE3;
+      font-family: 'Quicksand';
+      font-weight: 600;
+      font-size: 6vw; }
+    main .mainMenuContainer .pizzasContainer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      width: 100%;
+      height: 100%;
+      color: #FFFDE3;
+      font-family: 'Quicksand'; }
+      main .mainMenuContainer .pizzasContainer .pizzaItem img {
+        width: 300px; }
 
 footer {
   background-color: #CFE8A9;
