@@ -1,0 +1,44 @@
+main{
+    @include centrado;
+    .mainContainer{
+        margin-top: 4%;
+        margin-bottom: 4%;
+        width: 90%;
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .leftContainer{
+            font-family: 'Quicksand';
+            .espDelDia{
+                .EspecialNom{
+                    font-weight: 700;
+                    font-size: 90px;
+                    color: #FFFDE3;
+                }
+                .nomPizza{
+                    font-weight: 700;
+                    font-size: 90px;
+                    color: #CFE8A9;
+                }
+                .pizzaDescrip{
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #FFFDE3;
+                }
+            }
+        }
+        .rigthContainer{
+            @include centrado;
+            .imgContainer{
+                @include centrado;
+                width: 620px;
+                height: 620px;
+                background: radial-gradient(closest-side, #13252f, #FFFDE3, #13252f);
+                img{
+                    width: 570px;
+                }
+            }
+        }
+    }
+}
