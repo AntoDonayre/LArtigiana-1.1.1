@@ -1,0 +1,48 @@
+footer{
+    background-color: #CFE8A9;
+    width: 100%;
+    height: 280px;
+    .footerContainer{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .otherContainer{
+            .d-flex{
+                width: 98%;
+            }
+            .menuFooter{
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                font-family: 'Quicksand';
+                font-weight: 500;
+                font-size: 17px;
+                color: #13252f;
+                &:hover{
+                    color: #E64848;
+                }
+            }
+        }
+        .socialContainer{
+            .textRedes{
+                font-family: 'Quicksand';
+                color: #13252f;
+                h5{
+                    font-weight: 500;
+                }
+            }
+            .iconsRedes{
+                margin-top: 19px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .fa-brands{
+                    color: #13252f;
+                }
+            }
+        }
+    }
+}

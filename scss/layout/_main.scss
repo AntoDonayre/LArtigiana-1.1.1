@@ -1,10 +1,12 @@
 main{
     @include centrado;
+    width: 99%;
+    height: 90vh;
     .mainContainer{
         margin-top: 4%;
         margin-bottom: 4%;
         width: 90%;
-        height: 70vh;
+        height: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
