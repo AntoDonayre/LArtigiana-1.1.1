@@ -22,7 +22,7 @@ header {
       font-weight: 600; }
       header .headerContainer .navbar .container-fluid .navbar-brand img {
         width: 180px; }
-      header .headerContainer .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
+      header .headerContainer .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover, header .headerContainer .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:focus {
         text-decoration: underline;
         color: #CFE8A9; }
       header .headerContainer .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
@@ -50,15 +50,14 @@ main {
       main .mainContainer .leftContainer .espDelDia .nomPizza {
         font-weight: 700;
         font-size: 6vw;
-        color: #CFE8A9;
-        transition: 1.2s;
-        transform: scale(1, 1); }
+        color: #CFE8A9; }
+        main .mainContainer .leftContainer .espDelDia .nomPizza:hover {
+          transition: 1.2s;
+          transform: scale(1.2, 1.2); }
       main .mainContainer .leftContainer .espDelDia .pizzaDescrip {
         font-weight: 500;
         font-size: 1.2vw;
-        color: #FFFDE3;
-        transition: 1.2s;
-        transform: scale(1, 1); }
+        color: #FFFDE3; }
       main .mainContainer .leftContainer .espDelDia .btn {
         font-weight: 500;
         font-size: 16px;
@@ -195,6 +194,8 @@ main {
         main .mainAboutContainer .history .historyDescription p {
           font-weight: 500;
           font-size: 23px; }
+          main .mainAboutContainer .history .historyDescription p img {
+            width: 130px; }
 
 footer {
   background-color: #CFE8A9;

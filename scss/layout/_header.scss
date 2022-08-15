@@ -20,7 +20,8 @@ header{
                     .navbar-nav{
                         .nav-item{
                             .nav-link{
-                                &:hover{
+                                &:hover,
+                                &:focus{
                                     text-decoration: underline;
                                     color: #CFE8A9;
                                 }

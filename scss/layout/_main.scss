@@ -21,15 +21,15 @@ main{
                     font-weight: 700;
                     font-size: 6vw;
                     color: #CFE8A9;
-                    transition: 1.2s;
-                    transform: scale(1,1);
+                    &:hover{
+                        transition: 1.2s;
+                        transform: scale(1.2,1.2);
+                    }
                 }
                 .pizzaDescrip{
                     font-weight: 500;
                     font-size: 1.2vw;
                     color: #FFFDE3;
-                    transition: 1.2s;
-                    transform: scale(1,1);
                 }
                 .btn{
                     font-weight:500;
@@ -181,6 +181,9 @@ main{
                 p{
                     font-weight: 500;
                     font-size: 23px;
+                    img{
+                        width: 130px;
+                    }
                 }
             }
         }
