@@ -196,6 +196,41 @@ main {
           font-size: 23px; }
           main .mainAboutContainer .history .historyDescription p img {
             width: 130px; }
+  main .mainContactContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand'; }
+    main .mainContactContainer .formContainer {
+      margin-top: 80px;
+      margin-bottom: 80px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      main .mainContactContainer .formContainer .formTitle {
+        margin-top: 60px;
+        width: 100%; }
+        main .mainContactContainer .formContainer .formTitle h3 {
+          color: #FFFDE3;
+          text-align: center;
+          font-weight: 600;
+          font-size: 6vw; }
+      main .mainContactContainer .formContainer .formBox {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 32%; }
+        main .mainContactContainer .formContainer .formBox .col input {
+          background-color: #FFFDE3; }
+        main .mainContactContainer .formContainer .formBox .col textarea {
+          background-color: #FFFDE3; }
+        main .mainContactContainer .formContainer .formBox .btn {
+          background-color: #CFE8A9;
+          color: #13252f;
+          font-weight: 500;
+          font-size: 16px; }
 
 footer {
   background-color: #CFE8A9;

@@ -188,4 +188,45 @@ main{
             }
         }
     }
+    .mainContactContainer{
+        width: 90%;
+        @include centrado;
+        font-family: 'Quicksand';
+        .formContainer{
+            margin-top: 80px;
+            margin-bottom: 80px;
+            width: 100%;
+            @include centrado;
+            flex-direction: column;
+            .formTitle{
+                margin-top: 60px;
+                width: 100%;
+                h3{
+                    color: #FFFDE3;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 6vw;
+                }
+            }
+            .formBox{
+                margin-top: 60px;
+                margin-bottom: 60px;
+                width: 32%;
+                .col{
+                    input{
+                        background-color: #FFFDE3;
+                    }
+                    textarea{
+                        background-color: #FFFDE3;
+                    }
+                }
+                .btn{
+                    background-color: #CFE8A9;
+                    color: #13252f;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }
