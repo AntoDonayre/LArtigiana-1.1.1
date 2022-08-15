@@ -231,6 +231,18 @@ main {
           color: #13252f;
           font-weight: 500;
           font-size: 16px; }
+        main .mainContactContainer .formContainer .formBox label {
+          color: #FFFDE3;
+          font-weight: 300; }
+        main .mainContactContainer .formContainer .formBox h6 {
+          color: #FFFDE3;
+          font-weight: 100;
+          font-size: 20px; }
+          main .mainContactContainer .formContainer .formBox h6 a {
+            text-decoration: none;
+            color: #CFE8A9; }
+            main .mainContactContainer .formContainer .formBox h6 a:hover {
+              color: #E64848; }
 
 footer {
   background-color: #CFE8A9;

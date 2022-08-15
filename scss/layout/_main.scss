@@ -226,6 +226,22 @@ main{
                     font-weight: 500;
                     font-size: 16px;
                 }
+                label{
+                    color: #FFFDE3;
+                    font-weight: 300;
+                }
+                h6{
+                    color: #FFFDE3;
+                    font-weight: 100;
+                    font-size: 20px;
+                    a{
+                        text-decoration: none;
+                        color: #CFE8A9;
+                        &:hover{
+                            color: #E64848;
+                        }
+                    }
+                }
             }
         }
     }
