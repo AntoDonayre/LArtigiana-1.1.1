@@ -42,54 +42,89 @@
                         </ul>
                         </li>
                     </ul>
+                    
                     </div>
                 </div>
                 </nav>
         </div>
     </header>
     <main>
-        <div class="mainContactContainer">
+        <div class="mainComplainContainer">
             <div class="formContainer">
                 <div class="formTitle">
-                    <h3>Crea una cuenta nueva</h3>
+                    <h3>Libro de reclamaciones</h3>
                 </div>
-                <div class="formBox">
-                    <div class="row">
-                        <div class="col">
-                            <input type="text" class="form-control mb-3" placeholder="Nombre" aria-label="Nombre">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control mb-3" placeholder="Apellido" aria-label="Apellido">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <input type="number" class="form-control mb-3" placeholder="Doc. de identidad" aria-label="Dni">
-                        </div>
-                        <div class="col">
-                            <input type="number" class="form-control mb-3" placeholder="(+51)945 194 118" aria-label="Teléfono">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <input type="email" class="form-control mb-3" placeholder="correo@electronico.com" aria-label="Email">
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <input type="password" class="form-control mb-3" placeholder="crea una contraseña" aria-label="Contraseña nueva">
-                        </div>
-                        <div class="col">
-                            <input type="password" class="form-control mb-3" placeholder="confirma tu contraseña" aria-label="Confirma contraseña">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <label for="birthday">Cumpleaños</label>
-                        <input type="date" class="form-control mb-3" placeholder="Cumpleaños" aria-label="Cumpleaños">
-                    </div>
-                    <div class="row"></div>
-                    <a class="btn btn-lg colorb1" href="#" role="button">Enviar</a>
-                    <br> <br>
-                    <h6>Si ya tienes una cuenta, ingresa <a href="../pages/inicioSesion.html">aquí</a></h6>
+                <div class="legalText">
+                    <p class="disclaimer">Conforme a lo establecido en código de la Protección y Defensa del consumidor contamos con un Libro de Reclamaciones a tu disposición para que puedas registrar tu queja o reclamo acerca de algún pedido o transacción realizada a través de nuestras páginas. <br><br> Lartigiana S.A.C. - Operadora de franquicia <br> RUC: 20538225766 <br> Av. Javier Prado Oeste 1650 - San Isidro - Lima</p>
                 </div>
+                <div class="claimContainer">
+                    <div class="identificacionDelReclamante">
+                        <div class="col incidente">
+                            <label for="Reclamante">Fecha del incidente</label>
+                            <input type="date" class="form-control mb-3" placeholder="Fecha del reclamo" aria-label="fecha">
+                        </div>
+                        <div class="nombres row">
+                            <div class="col">
+                                <input type="text" class="form-control mb-3" placeholder="Nombres" aria-label="Nombres">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control mb-3" placeholder="Apellidos" aria-label="Apellidos">
+                            </div>
+                        </div>
+                        <div class="contactoPers row">
+                            <div class="col">
+                                <input type="email" class="form-control mb-3" placeholder="Correo" aria-label="Correo">
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control mb-3" placeholder="Teléfono de contacto" aria-label="Teléfono de contacto">
+                            </div>
+                        </div>
+                        <div class="documentoId row">
+                            <select class="form-select mb-3 ms-3 me-2 col" aria-label="Default select example">
+                                <option selected>Tipo de doc. de identidad</option>
+                                <option value="1">DNI</option>
+                                <option value="2">Pasaporte</option>
+                                <option value="3">PTP</option>
+                            </select>
+                            <div class="col">
+                                <input type="number" class="form-control mb-3" placeholder="N° de documento" aria-label="N° de documento">
+                            </div>
+                        </div>
+                        <div class="direccionGen row">
+                            <div class="col">
+                                <input type="text" class="form-control mb-3" placeholder="Departamento" aria-label="Departamento">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control mb-3" placeholder="Provincia" aria-label="Provincia">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control mb-3" placeholder="Distrito" aria-label="Distrito">
+                            </div>
+                        </div>
+                        <div class="col direccionEx">
+                            <input type="text" class="form-control mb-3" placeholder="Dirección" aria-label="Dirección">
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Menor de edad
+                            </label>
+                        </div>
+                        <div class="datosApoderado col">
+                            <div class="col">
+                                <input type="text" class="form-control mb-3" placeholder="Nombre y apellidos de padre" aria-label="Nombre y apellidos de padre">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control mb-3" placeholder="Nombre y apellidos de madre" aria-label="Nombre y apellidos de madre">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
             </div>
         </div>
     </main>

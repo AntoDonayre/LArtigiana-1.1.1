@@ -318,6 +318,81 @@ main {
         font-weight: 600;
         font-size: 16px;
         color: #13252f; }
+  main .mainVoucherContainer {
+    width: 90%; }
+    main .mainVoucherContainer .formContainer {
+      margin-top: 80px;
+      margin-bottom: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #FFFDE3;
+      font-family: 'Quicksand';
+      width: 100%; }
+      main .mainVoucherContainer .formContainer .formTitle {
+        margin-bottom: 60px; }
+        main .mainVoucherContainer .formContainer .formTitle h3 {
+          font-weight: 600;
+          font-size: 6vw;
+          text-align: center; }
+      main .mainVoucherContainer .formContainer .formBox {
+        width: 35%; }
+        main .mainVoucherContainer .formContainer .formBox .col {
+          font-weight: 400;
+          font-size: 16px; }
+        main .mainVoucherContainer .formContainer .formBox a {
+          background-color: #CFE8A9;
+          color: #13252f;
+          font-weight: 500;
+          font-size: 16px; }
+  main .mainComplainContainer {
+    width: 90%;
+    color: #FFFDE3; }
+    main .mainComplainContainer .formContainer {
+      font-family: 'Quicksand';
+      width: 100%; }
+      main .mainComplainContainer .formContainer .formTitle h3 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 6vw; }
+      main .mainComplainContainer .formContainer .legalText {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .mainComplainContainer .formContainer .legalText .disclaimer {
+          width: 50%;
+          text-align: center; }
+      main .mainComplainContainer .formContainer .claimContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante {
+          padding: 2%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(207, 232, 169, 0.5);
+          width: 60%;
+          border-radius: 20px; }
+          main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante .incidente {
+            width: 80%; }
+          main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante .nombres {
+            width: 84%; }
+          main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante .contactoPers {
+            width: 84%; }
+          main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante .documentoId {
+            width: 84%; }
+          main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante .direccionGen {
+            width: 84%; }
+          main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante .direccionEx {
+            width: 80%; }
+          main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante .form-check {
+            width: 80%;
+            margin-bottom: 8px; }
+          main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante .datosApoderado {
+            width: 80%; }
 
 footer {
   background-color: #CFE8A9;

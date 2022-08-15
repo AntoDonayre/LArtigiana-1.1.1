@@ -332,4 +332,97 @@ main{
             }
         }
     }
+    .mainVoucherContainer{
+        width: 90%;
+        .formContainer{
+            margin-top: 80px;
+            margin-bottom: 80px;
+            @include centrado;
+            flex-direction: column;
+            color: #FFFDE3;
+            font-family: 'Quicksand';
+            width: 100%;
+            .formTitle{
+                margin-bottom: 60px;
+                h3{
+                    font-weight: 600;
+                    font-size: 6vw;
+                    text-align: center;
+                }
+            }
+            .formBox{
+                width: 35%;
+                .col{
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+                a{
+                    background-color: #CFE8A9;
+                    color: #13252f;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .mainComplainContainer{
+        width: 90%;
+        color: #FFFDE3;
+        .formContainer{
+            font-family: 'Quicksand';
+            width: 100%;
+            .formTitle{
+                h3{
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 6vw;
+                }
+            }
+            .legalText{
+                @include centrado;
+                .disclaimer{
+                    width: 50%;
+                    text-align: center;
+                }
+            }
+            .claimContainer{
+                @include centrado;
+                .identificacionDelReclamante{
+                    padding: 2%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgba(207,232,169, 0.5);
+                    width: 60%;
+                    border-radius: 20px;
+                    .incidente{
+                        width: 80%;
+                    }
+                    .nombres{
+                        width: 84%;
+                    }
+                    .contactoPers{
+                        width: 84%;
+                    }
+                    .documentoId{
+                        width: 84%;
+                    }
+                    .direccionGen{
+                        width: 84%;
+                    }
+                    .direccionEx{
+                        width: 80%;
+                    }
+                    .form-check{
+                        width: 80%;
+                        margin-bottom: 8px;
+                    }
+                    .datosApoderado{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
 }
