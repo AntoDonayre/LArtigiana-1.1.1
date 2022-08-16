@@ -128,4 +128,13 @@ footer{
             }
         }
     }
+    //1200px
+    @media (min-width: 1200px){
+        .footerContainer{
+            flex-direction: row;
+            .socialContainer{
+                flex-direction: column;
+            }
+        }
+    }
 }

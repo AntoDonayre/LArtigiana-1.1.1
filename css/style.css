@@ -678,8 +678,12 @@ main {
           main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer .basePrice {
             font-size: 90%; } }
   @media (min-width: 1200px) {
-    main .mainContainer .leftContainer .espDelDia .btn {
-      width: 20%; } }
+    main .mainContainer .leftContainer {
+      width: 50%; }
+      main .mainContainer .leftContainer .espDelDia .pizzaDescrip {
+        font-size: 2vw; }
+      main .mainContainer .leftContainer .espDelDia .btn {
+        width: 30%; } }
 
 footer {
   background-color: #CFE8A9;
@@ -774,3 +778,8 @@ footer {
         footer .footerContainer .socialContainer .iconsRedes a {
           margin-left: 15px;
           margin-right: 15px; } }
+  @media (min-width: 1200px) {
+    footer .footerContainer {
+      flex-direction: row; }
+      footer .footerContainer .socialContainer {
+        flex-direction: column; } }
