@@ -520,6 +520,85 @@ main {
             font-size: 3vw; }
         main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer .basePrice {
           font-size: 3vw; }
+  main .mainAboutContainer .title {
+    width: 100%; }
+    main .mainAboutContainer .title h3 {
+      font-size: 10vw; }
+  main .mainAboutContainer .history {
+    flex-direction: column;
+    width: 100%; }
+    main .mainAboutContainer .history .historyDescription {
+      width: 100%; }
+    main .mainAboutContainer .history .AmatoImg {
+      width: 100%; }
+  main .mainContactContainer .formContainer {
+    width: 100%; }
+    main .mainContactContainer .formContainer .formTitle {
+      width: 100%; }
+      main .mainContactContainer .formContainer .formTitle h3 {
+        width: 100%;
+        font-size: 10vw; }
+    main .mainContactContainer .formContainer .formBox {
+      width: 100%; }
+      main .mainContactContainer .formContainer .formBox .row {
+        flex-direction: column; }
+      main .mainContactContainer .formContainer .formBox button {
+        width: 85px; }
+  main .mainVoucherContainer .formContainer {
+    width: 100%; }
+    main .mainVoucherContainer .formContainer .formTitle {
+      width: 100%; }
+      main .mainVoucherContainer .formContainer .formTitle h3 {
+        font-size: 10vw; }
+    main .mainVoucherContainer .formContainer .formBox {
+      width: 100%; }
+      main .mainVoucherContainer .formContainer .formBox .row {
+        flex-direction: column; }
+  main .mainComplainContainer .formContainer {
+    width: 100%; }
+    main .mainComplainContainer .formContainer .formTitle {
+      width: 100%; }
+      main .mainComplainContainer .formContainer .formTitle h3 {
+        font-size: 10vw; }
+    main .mainComplainContainer .formContainer .legalText {
+      width: 100%; }
+      main .mainComplainContainer .formContainer .legalText .disclaimer {
+        width: 90%;
+        font-size: 3vw; }
+    main .mainComplainContainer .formContainer .claimContainer {
+      width: 100%; }
+      main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante {
+        width: 100%; }
+      main .mainComplainContainer .formContainer .claimContainer .productClaim {
+        width: 100%; }
+      main .mainComplainContainer .formContainer .claimContainer .claimDetail {
+        width: 100%; }
+      main .mainComplainContainer .formContainer .claimContainer .obsClaim {
+        width: 100%; }
+      main .mainComplainContainer .formContainer .claimContainer button {
+        width: 40%; }
+  main .mainOfertaContainer .textOferta {
+    width: 100%; }
+    main .mainOfertaContainer .textOferta h3 {
+      font-size: 10vw; }
+  main .mainOfertaContainer .pizzaOfertaContainer {
+    width: 100%; }
+    main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem {
+      width: 100%; }
+      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem img {
+        width: 72%; }
+      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem h5 {
+        font-size: 7vw; }
+      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem p {
+        font-size: 4vw; }
+      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .btn {
+        font-size: 3vw; }
+      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .dropdown-menu {
+        font-size: 3vw; }
+      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .basePrice {
+        font-size: 6vw; }
+  main .mainOfertaContainer .menuButton a {
+    font-size: 3vw; }
 
 footer {
   background-color: #CFE8A9;

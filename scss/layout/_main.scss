@@ -582,4 +582,137 @@ main{
             }
         }
     }
+    .mainAboutContainer{
+        .title{
+            width: 100%;
+            h3{
+                font-size: 10vw;
+            }
+        }
+        .history{
+            flex-direction: column;
+            width: 100%;
+            .historyDescription{
+                width: 100%;
+            }
+            .AmatoImg{
+                width: 100%;
+            }
+        }
+    }
+    .mainContactContainer{
+        .formContainer{
+            width: 100%;
+            .formTitle{
+                width: 100%;
+                h3{
+                    width: 100%;
+                    font-size: 10vw;
+                }
+            }
+            .formBox{
+                width: 100%;
+                .row{
+                    flex-direction: column;
+                }
+                button{
+                    width: 85px;
+                }
+            }
+        }
+    }
+    .mainVoucherContainer{
+        .formContainer{
+            width: 100%;
+            .formTitle{
+                width: 100%;
+                h3{
+                    font-size: 10vw;
+                }
+            }
+            .formBox{
+                width: 100%;
+                .row{
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    .mainComplainContainer{
+        .formContainer{
+            width: 100%;
+            .formTitle{
+                width: 100%;
+                h3{
+                    font-size: 10vw;
+                }
+            }
+            .legalText{
+                width: 100%;
+                .disclaimer{
+                    width: 90%;
+                    font-size: 3vw;
+                }
+            }
+            .claimContainer{
+                width: 100%;
+                .identificacionDelReclamante{
+                    width: 100%;
+                }
+                .productClaim{
+                    width: 100%;
+                }
+                .claimDetail{
+                    width: 100%;
+                }
+                .obsClaim{
+                    width: 100%;
+                }
+                button{
+                    width: 40%;
+                }
+            }
+        }
+    }
+    .mainOfertaContainer{
+        .textOferta{
+            width: 100%;
+            h3{
+                font-size: 10vw;
+            }
+        }
+        .pizzaOfertaContainer{
+            width: 100%;
+            .pizzaOfertaItem{
+                width: 100%;
+                img{
+                    width: 72%;
+                }
+                h5{
+                    font-size: 7vw;
+                }
+                p{
+                    font-size: 4vw;
+                }
+                .orderContainer{
+                    .btn-group{
+                        .btn{
+                            font-size: 3vw;
+                        }
+                        .dropdown-menu{
+                            font-size: 3vw;
+                        }
+                    }
+                    .basePrice{
+                        font-size: 6vw;
+                    }
+                }
+            }
+        }
+        .menuButton{
+            a{
+                font-size: 3vw;
+            }
+        }
+    }
 }
