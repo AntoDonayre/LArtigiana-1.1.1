@@ -838,4 +838,16 @@ main{
             }
         }
     }
+    //1200px
+    @media (min-width: 1200px){
+        .mainContainer{
+            .leftContainer{
+                .espDelDia{
+                    .btn{
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }
 }

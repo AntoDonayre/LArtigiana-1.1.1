@@ -677,6 +677,9 @@ main {
             font-size: 55%; }
           main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer .basePrice {
             font-size: 90%; } }
+  @media (min-width: 1200px) {
+    main .mainContainer .leftContainer .espDelDia .btn {
+      width: 20%; } }
 
 footer {
   background-color: #CFE8A9;
