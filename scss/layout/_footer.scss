@@ -91,4 +91,41 @@ footer{
             }
         }
     }
+    //768px
+    @media (min-width: 768px){
+        .footerContainer{
+            flex-direction: column;
+            width: 90%;
+            .otherContainer{
+                width: 100%;
+                height: 45%;
+                .d-flex{
+                    width: 70%;
+                }
+                .menuFooter{
+                    width: 100%;
+                    text-align: center;
+                    font-size: 17px;
+                }
+            }
+            .socialContainer{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                .textRedes{
+                    h5{
+                        font-size: 17px;
+                    }
+                }
+                .iconsRedes{
+                    a{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
 }

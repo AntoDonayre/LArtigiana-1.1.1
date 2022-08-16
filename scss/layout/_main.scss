@@ -715,4 +715,92 @@ main{
             }
         }
     }
+    //768px
+    @media (min-width: 768px){
+        .mainContainer{
+            margin-top: 80px;
+            margin-bottom: 110px;
+            .rigthContainer{
+                width: 45%;
+                height: 45%;
+                .imgContainer{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .leftContainer{
+                width: 45%;
+                height: 45%;
+                .espDelDia{
+                    width: 100%;
+                    height: 100%;
+                    .EspecialNom{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .nomPizza{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .pizzaDescrip{
+                        width: 100%;
+                        height: 100%;
+                        font-size: 13px;
+                    }
+                    .btn{
+                        width: 60%;
+                        height: 40%;
+                    }
+                }
+            }
+        }
+        .mainMenuContainer{
+            .pizzasContainer{
+                grid-template-columns: repeat(2, 1fr);
+                .pizzaItem{
+                    width: 95%;
+                    height: 100%;
+                    img{
+                        width: 60%;
+                    }
+                    h5{
+                        font-size: 3vw;
+                    }
+                    p{
+                        font-size: 2vw;
+                    }
+                    .orderContainer{
+                        padding-left: 1%;
+                        padding-right: 1%;
+                        .btn-group{
+                            width: 55%;
+                            .btn{
+                                width: 100%;
+                                font-size: 2vw;
+                            }
+                            .dropdown-menu{
+                                .dropdown-item{
+                                    font-size: 2vw;
+                                }
+                            }
+                        }
+                        .basePrice{
+                            font-size: 2vw;
+                        }
+                    }
+                }
+            }
+        }
+        .mainAboutContainer{
+            .history{
+                .AmatoImg{
+                    @include centrado;
+                }
+            }
+        }
+    }
 }
