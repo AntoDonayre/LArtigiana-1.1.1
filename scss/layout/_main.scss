@@ -497,10 +497,12 @@ main{
     @media (max-width: 575px){
         .mainContainer{
             width: 97%;
-            height: 70vh;
+            height: 90vh;
+            flex-direction: column-reverse;
+            margin-bottom: 60px;
             .leftContainer{
                 width: 100%;
-                height: 60%;
+                height: 50%;
                 @include centrado;
                 .espDelDia{
                     .EspecialNom{
@@ -515,7 +517,14 @@ main{
                 }
             }
             .rigthContainer{
-                display: none;
+                width: 97%;
+                .imgContainer{
+                    width: 90%;
+                    height: 110%;
+                    img{
+                        width: 90%;
+                    }
+                }
             }
         }
         .mainMenuContainer{

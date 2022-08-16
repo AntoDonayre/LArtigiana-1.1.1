@@ -460,10 +460,12 @@ main {
   @media (max-width: 575px) {
     main .mainContainer {
       width: 97%;
-      height: 70vh; }
+      height: 90vh;
+      flex-direction: column-reverse;
+      margin-bottom: 60px; }
       main .mainContainer .leftContainer {
         width: 100%;
-        height: 60%;
+        height: 50%;
         display: flex;
         justify-content: center;
         align-items: center; }
@@ -474,7 +476,12 @@ main {
         main .mainContainer .leftContainer .espDelDia .pizzaDescrip {
           font-size: 6vw; }
       main .mainContainer .rigthContainer {
-        display: none; }
+        width: 97%; }
+        main .mainContainer .rigthContainer .imgContainer {
+          width: 90%;
+          height: 110%; }
+          main .mainContainer .rigthContainer .imgContainer img {
+            width: 90%; }
     main .mainMenuContainer {
       width: 97%; }
       main .mainMenuContainer .textMenu {
