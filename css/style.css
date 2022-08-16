@@ -897,7 +897,47 @@ main {
               font-size: 16px;
               text-align: center; }
           main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer .basePrice {
-            font-size: 16px; } }
+            font-size: 16px; }
+    main .mainAboutContainer .title h3 {
+      font-size: 6vw; }
+    main .mainAboutContainer .history .AmatoImg {
+      width: 100%; }
+      main .mainAboutContainer .history .AmatoImg img {
+        width: 55%; }
+    main .mainContactContainer {
+      width: 90%; }
+      main .mainContactContainer .formContainer {
+        width: 100%; }
+        main .mainContactContainer .formContainer .formTitle h3 {
+          font-size: 6vw; }
+        main .mainContactContainer .formContainer .formBox {
+          width: 70%; }
+          main .mainContactContainer .formContainer .formBox .row {
+            flex-direction: row; }
+    main .mainVoucherContainer {
+      width: 90%; }
+      main .mainVoucherContainer .formContainer .formTitle h3 {
+        font-size: 6vw; }
+      main .mainVoucherContainer .formContainer .formBox {
+        width: 70%; }
+        main .mainVoucherContainer .formContainer .formBox .row {
+          flex-direction: row; }
+          main .mainVoucherContainer .formContainer .formBox .row .col label {
+            display: none; }
+    main .mainComplainContainer {
+      width: 90%; }
+      main .mainComplainContainer .formContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%; }
+        main .mainComplainContainer .formContainer .formTitle h3 {
+          font-size: 6vw; }
+        main .mainComplainContainer .formContainer .legalText .disclaimer {
+          font-size: 18px; }
+        main .mainComplainContainer .formContainer .claimContainer {
+          width: 70%; } }
 
 footer {
   background-color: #CFE8A9;

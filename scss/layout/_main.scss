@@ -1189,5 +1189,79 @@ main{
                 }
             }
         }
+        .mainAboutContainer{
+            .title{
+                h3{
+                    font-size: 6vw;
+                }
+            }
+            .history{
+                .AmatoImg{
+                    width: 100%;
+                    img{
+                        width: 55%;
+                    }
+                }
+            }
+        }
+        .mainContactContainer{
+            width: 90%;
+            .formContainer{
+                width: 100%;
+                .formTitle{
+                    h3{
+                        font-size: 6vw;
+                    }
+                }
+                .formBox{
+                    width: 70%;
+                    .row{
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+        .mainVoucherContainer{
+            width: 90%;
+            .formContainer{
+                .formTitle{
+                    h3{
+                        font-size: 6vw;
+                    }
+                }
+                .formBox{
+                    width: 70%;
+                    .row{
+                        flex-direction: row;
+                        .col{
+                            label{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mainComplainContainer{
+            width: 90%;
+            .formContainer{
+                @include centrado;
+                flex-direction: column;
+                width: 100%;
+                .formTitle{
+                    h3{
+                        font-size: 6vw;
+                    }
+                }
+                .legalText{
+                    .disclaimer{
+                        font-size: 18px;
+                    }
+                }
+                .claimContainer{
+                    width: 70%;
+                }
+            }
+        }
     }
 }
