@@ -346,6 +346,8 @@ main {
           color: #13252f;
           font-weight: 500;
           font-size: 16px; }
+        main .mainVoucherContainer .formContainer .formBox .form-control {
+          background-color: #FFFDE3; }
   main .mainComplainContainer {
     width: 90%;
     color: #FFFDE3; }
@@ -457,6 +459,8 @@ main {
           color: #13252f;
           font-weight: 500;
           font-size: 20px; }
+        main .mainComplainContainer .formContainer .claimContainer .form-control .form-select {
+          background-color: #FFFDE3; }
   @media (max-width: 575px) {
     main .mainContainer {
       width: 97%;
