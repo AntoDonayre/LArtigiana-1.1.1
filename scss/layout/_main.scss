@@ -369,9 +369,12 @@ main{
         width: 90%;
         color: #FFFDE3;
         .formContainer{
+            margin-top: 80px;
+            margin-bottom: 80px;
             font-family: 'Quicksand';
             width: 100%;
             .formTitle{
+                margin-bottom: 20px;
                 h3{
                     text-align: center;
                     font-weight: 600;
@@ -387,7 +390,9 @@ main{
             }
             .claimContainer{
                 @include centrado;
+                flex-direction: column;
                 .identificacionDelReclamante{
+                    margin-top: 30px;
                     padding: 2%;
                     display: flex;
                     flex-direction: column;
@@ -396,31 +401,94 @@ main{
                     background-color: rgba(207,232,169, 0.5);
                     width: 60%;
                     border-radius: 20px;
+                    h6{
+                        font-weight: 500;
+                        font-size: 20px;
+                        color: #13252f;
+                    }
                     .incidente{
                         width: 80%;
                     }
                     .nombres{
-                        width: 84%;
+                        width: 83%;
                     }
                     .contactoPers{
-                        width: 84%;
+                        width: 83%;
                     }
                     .documentoId{
                         width: 84%;
                     }
                     .direccionGen{
-                        width: 84%;
+                        width: 83%;
                     }
                     .direccionEx{
-                        width: 80%;
+                        width: 81%;
                     }
                     .form-check{
-                        width: 80%;
+                        width: 81%;
                         margin-bottom: 8px;
                     }
                     .datosApoderado{
-                        width: 80%;
+                        width: 70%;
                     }
+                }
+                .productClaim{
+                    margin-top: 30px;
+                    padding: 2%;
+                    @include centrado;
+                    flex-direction: column;
+                    background-color: rgba(207,232,169, 0.5);
+                    border-radius: 20px;
+                    width: 60%;
+                    h6{
+                        font-weight: 500;
+                        font-size: 20px;
+                        color: #13252f;
+                    }
+                    .col{
+                        width: 75%;
+                    }
+                }
+                .claimDetail{
+                    margin-top: 30px;
+                    padding: 2%;
+                    @include centrado;
+                    flex-direction: column;
+                    background-color: rgba(207,232,169, 0.5);
+                    border-radius: 20px;
+                    width: 60%;
+                    h6{
+                        font-weight: 500;
+                        font-size: 20px;
+                        color: #13252f;
+                    }
+                    .col{
+                        width: 75%;
+                    }
+                }
+                .obsClaim{
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    padding: 2%;
+                    @include centrado;
+                    flex-direction: column;
+                    background-color: rgba(207,232,169, 0.5);
+                    border-radius: 20px;
+                    width: 60%;
+                    h6{
+                        font-weight: 500;
+                        font-size: 20px;
+                        color: #13252f;
+                    }
+                    .col{
+                        width: 75%;
+                    }
+                }
+                button{
+                    background-color: #CFE8A9;
+                    color: #13252f;
+                    font-weight: 500;
+                    font-size: 20px;
                 }
             }
         }

@@ -59,6 +59,7 @@
                 </div>
                 <div class="claimContainer">
                     <div class="identificacionDelReclamante">
+                        <h6>Id. del consumidor reclamante:</h6>
                         <div class="col incidente">
                             <label for="Reclamante">Fecha del incidente</label>
                             <input type="date" class="form-control mb-3" placeholder="Fecha del reclamo" aria-label="fecha">
@@ -112,19 +113,67 @@
                         </div>
                         <div class="datosApoderado col">
                             <div class="col">
-                                <input type="text" class="form-control mb-3" placeholder="Nombre y apellidos de padre" aria-label="Nombre y apellidos de padre">
+                                <input type="text" class="form-control mb-3" placeholder="Nombre y apellidos de padre (solo para menores de edad)" aria-label="Nombre y apellidos de padre (solo para menores de edad)">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control mb-3" placeholder="Nombre y apellidos de madre" aria-label="Nombre y apellidos de madre">
+                                <input type="text" class="form-control mb-3" placeholder="Nombre y apellidos de madre (solo para menores de edad)" aria-label="Nombre y apellidos de madre (solo para menores de edad)">
                             </div>
                         </div>
                     </div>
+                    <div class="productClaim">
+                        <h6>Id. del bien adquirido:</h6>
+                        <div class="col">
+                            <input type="text" class="form-control mb-3" placeholder="Producto reclamado" aria-label="Producto reclamado">
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control mb-3" placeholder="Monto reclamado en soles" aria-label="Producto reclamado">
+                        </div>
+                        <div class="col">
+                            <textarea class="form-control mb-3" placeholder="Descripción del monto" id="floatingTextarea"></textarea>
+                        </div>
+                    </div>
+                    <div class="claimDetail">
+                        <h6>Detalle del reclamo:</h6>
+                        <div class="tipoReclamo row">
+                            <div class="form-check col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Reclamo
+                                </label>
+                            </div>
+                            <div class="form-check col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Queja
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control mb-3" placeholder="N° del pedido" aria-label="numero del pedido">
+                        </div>
+                        <div class="col">
+                            <label for="Fecha del pedido">Fecha del pedido:</label>
+                            <input type="date" class="form-control mb-3" placeholder="Fecha del pedido" aria-label="Fecha del pedido">
+                        </div>
+                        <div class="col">
+                            <textarea class="form-control mb-3" placeholder="Detalle" id="floatingTextarea"></textarea>
+                        </div>
+                        <div class="col">
+                            <textarea class="form-control mb-3" placeholder="Solución requerida por cliente" id="floatingTextarea"></textarea>
+                        </div>
+                    </div>
+                    <div class="obsClaim">
+                        <h6>Observaciones y acciones del proveedor:</h6>
+                        <div class="col">
+                            <label for="Fecha de respuesta">Fecha de respuesta:</label>
+                            <input type="date" class="form-control mb-3" placeholder="Fecha del pedido" aria-label="Fecha del pedido">
+                        </div>
+                        <div class="col">
+                            <textarea class="form-control mb-3" placeholder="Detalle" id="floatingTextarea"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                 </div>
-
-
-
-
-                
             </div>
         </div>
     </main>
