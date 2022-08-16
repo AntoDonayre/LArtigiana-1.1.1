@@ -658,6 +658,25 @@ main {
       display: flex;
       justify-content: center;
       align-items: center; } }
+  @media (min-width: 992px) {
+    main .mainMenuContainer .pizzasContainer {
+      grid-template-columns: repeat(3, 1fr); }
+      main .mainMenuContainer .pizzasContainer .pizzaItem {
+        padding-top: 2%;
+        width: 98%;
+        height: 98%; }
+        main .mainMenuContainer .pizzasContainer .pizzaItem h5 {
+          font-size: 3vw; }
+        main .mainMenuContainer .pizzasContainer .pizzaItem p {
+          font-size: 2vw; }
+        main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer {
+          padding: 2%; }
+          main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer .btn-group .btn {
+            font-size: 80%; }
+          main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer .btn-group .dropdown-menu .dropdown-item {
+            font-size: 55%; }
+          main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer .basePrice {
+            font-size: 90%; } }
 
 footer {
   background-color: #CFE8A9;

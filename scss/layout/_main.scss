@@ -803,4 +803,39 @@ main{
             }
         }
     }
+    //992px
+    @media (min-width: 992px){
+        .mainMenuContainer{
+            .pizzasContainer{
+                grid-template-columns: repeat(3, 1fr);
+                .pizzaItem{
+                    padding-top: 2%;
+                    width: 98%;
+                    height: 98%;
+                    h5{
+                        font-size: 3vw;
+                    }
+                    p{
+                        font-size: 2vw;
+                    }
+                    .orderContainer{
+                        padding: 2%;
+                        .btn-group{
+                            .btn{
+                                font-size: 80%;
+                            }
+                            .dropdown-menu{
+                                .dropdown-item{
+                                    font-size: 55%;
+                                }
+                            }
+                        }
+                        .basePrice{
+                            font-size: 90%;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
