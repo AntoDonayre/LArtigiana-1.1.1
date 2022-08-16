@@ -597,7 +597,8 @@ main {
         width: 80%;
         height: 100%; }
         main .mainMenuContainer .pizzasContainer .pizzaItem img {
-          width: 60%; }
+          width: 60%;
+          height: auto; }
         main .mainMenuContainer .pizzasContainer .pizzaItem h5 {
           width: 100%;
           font-size: 5vw; }
