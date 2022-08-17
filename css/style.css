@@ -11,7 +11,11 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100px; }
+  height: 100px;
+  position: sticky;
+  top: 0;
+  background-color: #13252f;
+  z-index: 1; }
   header .headerContainer {
     width: 90%;
     height: 90px; }
@@ -137,7 +141,7 @@ main {
           width: 95%;
           height: auto;
           font-weight: 300;
-          font-size: 17px;
+          font-size: 1.1vw;
           text-align: center; }
         main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer {
           display: flex;
@@ -463,7 +467,7 @@ main {
           background-color: #FFFDE3; }
   @media (max-width: 575px) {
     main .mainContainer {
-      width: 97%;
+      width: 80%;
       height: 90vh;
       flex-direction: column-reverse;
       margin-bottom: 60px; }
@@ -487,7 +491,7 @@ main {
           main .mainContainer .rigthContainer .imgContainer img {
             width: 90%; }
     main .mainMenuContainer {
-      width: 97%; }
+      width: 80%; }
       main .mainMenuContainer .textMenu {
         width: 100%; }
         main .mainMenuContainer .textMenu h3 {
@@ -500,8 +504,10 @@ main {
         flex-direction: column;
         width: 100%;
         grid-template-columns: repeat(1, 1fr); }
+        main .mainMenuContainer .pizzasContainer .pizzaItem p {
+          font-size: 16px; }
     main .mainAboutContainer {
-      width: 97%; }
+      width: 80%; }
       main .mainAboutContainer .title h3 {
         font-size: 10vw; }
       main .mainAboutContainer .history {
@@ -512,7 +518,7 @@ main {
           main .mainAboutContainer .history .AmatoImg img {
             width: 100%; }
     main .mainContactContainer {
-      width: 97%; }
+      width: 80%; }
       main .mainContactContainer .formContainer {
         width: 100%; }
         main .mainContactContainer .formContainer .formTitle h3 {
@@ -522,7 +528,7 @@ main {
           main .mainContactContainer .formContainer .formBox .row {
             flex-direction: column; }
     main .mainVoucherContainer {
-      width: 97%; }
+      width: 80%; }
       main .mainVoucherContainer .formContainer {
         width: 100%; }
         main .mainVoucherContainer .formContainer .formTitle h3 {
@@ -532,7 +538,7 @@ main {
           main .mainVoucherContainer .formContainer .formBox .row {
             flex-direction: column; }
     main .mainComplainContainer {
-      width: 97%; }
+      width: 80%; }
       main .mainComplainContainer .formContainer {
         width: 100%; }
         main .mainComplainContainer .formContainer .formTitle h3 {

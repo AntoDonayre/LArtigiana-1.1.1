@@ -14,12 +14,12 @@ main{
             .espDelDia{
                 .EspecialNom{
                     font-weight: 700;
-                    font-size: 6vw;
+                    @include titleSize;
                     color: #FFFDE3;
                 }
                 .nomPizza{
                     font-weight: 700;
-                    font-size: 6vw;
+                    @include titleSize;
                     color: #CFE8A9;
                     &:hover{
                         transition: 1.2s;
@@ -28,7 +28,7 @@ main{
                 }
                 .pizzaDescrip{
                     font-weight: 500;
-                    font-size: 1.2vw;
+                    @include subtitleSize;
                     color: #FFFDE3;
                 }
                 .btn{
@@ -73,7 +73,7 @@ main{
                 color: #FFFDE3;
                 font-family:'Quicksand' ;
                 font-weight: 600;
-                font-size: 6vw;
+                @include titleSize;
             }
         }
         .pizzasContainer{
@@ -119,7 +119,7 @@ main{
                     width: 95%;
                     height: auto;
                     font-weight: 300;
-                    font-size: 17px;
+                    @include descriptionSize;
                     text-align: center;
                 }
                 .orderContainer{
@@ -167,7 +167,7 @@ main{
                 width: 100%;
                 @include centrado;
                 font-weight: 600;
-                font-size: 6vw;
+                @include titleSize;
             }
         }
         .history{
@@ -205,7 +205,7 @@ main{
                     color: #FFFDE3;
                     text-align: center;
                     font-weight: 600;
-                    font-size: 6vw;
+                    @include titleSize;
                 }
             }
             .formBox{
@@ -258,7 +258,7 @@ main{
             text-align: center;
             h3{
                 font-weight: 600;
-                font-size: 6vw;
+                @include titleSize;
             }
         }
         .pizzaOfertaContainer{
@@ -346,7 +346,7 @@ main{
                 margin-bottom: 60px;
                 h3{
                     font-weight: 600;
-                    font-size: 6vw;
+                    @include titleSize;
                     text-align: center;
                 }
             }
@@ -381,7 +381,7 @@ main{
                 h3{
                     text-align: center;
                     font-weight: 600;
-                    font-size: 6vw;
+                    @include titleSize;
                 }
             }
             .legalText{
@@ -499,10 +499,10 @@ main{
             }
         }
     }
-    //575pox
+    //575px
     @media (max-width: 575px){
         .mainContainer{
-            width: 97%;
+            @include espaciadoLateral;
             height: 90vh;
             flex-direction: column-reverse;
             margin-bottom: 60px;
@@ -534,7 +534,7 @@ main{
             }
         }
         .mainMenuContainer{
-            width: 97%;
+            @include espaciadoLateral;
             .textMenu{
                 width: 100%;
                 h3{
@@ -547,11 +547,15 @@ main{
                 flex-direction: column;
                 width: 100%;
                 grid-template-columns: repeat(1, 1fr);
-                
+                .pizzaItem{
+                    p{
+                        font-size: 16px
+                    }
+                }
             }
         }
         .mainAboutContainer{
-            width: 97%;
+            @include espaciadoLateral;
             .title{
                 h3{
                     font-size: 10vw;
@@ -569,7 +573,7 @@ main{
             }
         }
         .mainContactContainer{
-            width: 97%;
+            @include espaciadoLateral;
             .formContainer{
                 width: 100%;
                 .formTitle{
@@ -586,7 +590,7 @@ main{
             }
         }
         .mainVoucherContainer{
-            width: 97%;
+            @include espaciadoLateral;
             .formContainer{
                 width: 100%;
                 .formTitle{
@@ -603,7 +607,7 @@ main{
             }
         }
         .mainComplainContainer{
-            width: 97%;
+            @include espaciadoLateral;
             .formContainer{
                 width: 100%;
                 .formTitle{
