@@ -4,7 +4,7 @@ main{
     .mainContainer{
         margin-top: 4%;
         margin-bottom: 4%;
-        width: 90%;
+        @include espaciadoLateral;
         height: 100%;
         display: flex;
         justify-content: space-around;
@@ -62,7 +62,7 @@ main{
         }
     }
     .mainMenuContainer{
-        width: 90%;
+        @include espaciadoLateral;
         @include centrado;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -85,7 +85,7 @@ main{
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: auto;
             margin: 1px;
-            width: 93%;
+            width: 100%;
             height: 100%;
             color: #FFFDE3;
             font-family: 'Quicksand';
@@ -152,7 +152,7 @@ main{
         }
     }
     .mainAboutContainer{
-        width: 90%;
+        @include espaciadoLateral;
         font-family: 'Quicksand';
         color: #FFFDE3;
         @include centrado;
@@ -189,7 +189,7 @@ main{
         }
     }
     .mainContactContainer{
-        width: 90%;
+        @include espaciadoLateral;
         @include centrado;
         font-family: 'Quicksand';
         .formContainer{
@@ -248,7 +248,7 @@ main{
     .mainOfertaContainer{
         margin-top: 80px;
         margin-bottom: 80px;
-        width: 90%;
+        @include espaciadoLateral;
         @include centrado;
         flex-direction: column;
         color: #FFFDE3;
@@ -333,7 +333,7 @@ main{
         }
     }
     .mainVoucherContainer{
-        width: 90%;
+        @include espaciadoLateral;
         .formContainer{
             margin-top: 80px;
             margin-bottom: 80px;
@@ -369,7 +369,7 @@ main{
         }
     }
     .mainComplainContainer{
-        width: 90%;
+        @include espaciadoLateral;
         color: #FFFDE3;
         .formContainer{
             margin-top: 80px;
@@ -1164,7 +1164,7 @@ main{
                 grid-row-gap: 10px;
                 grid-template-columns: repeat(4, 1fr);
                 grid-template-rows: auto;
-                width: 93%;
+                width: 100%;
                 height: 100%;
                 .pizzaItem{
                     padding-top: 2px;
@@ -1221,7 +1221,6 @@ main{
             }
         }
         .mainContactContainer{
-            width: 90%;
             .formContainer{
                 width: 100%;
                 .formTitle{
@@ -1238,7 +1237,6 @@ main{
             }
         }
         .mainVoucherContainer{
-            width: 90%;
             .formContainer{
                 .formTitle{
                     h3{
@@ -1259,7 +1257,6 @@ main{
             }
         }
         .mainComplainContainer{
-            width: 90%;
             .formContainer{
                 @include centrado;
                 flex-direction: column;

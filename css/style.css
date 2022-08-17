@@ -36,7 +36,7 @@ main {
   main .mainContainer {
     margin-top: 4%;
     margin-bottom: 4%;
-    width: 90%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -83,7 +83,7 @@ main {
           main .mainContainer .rigthContainer .imgContainer img:hover {
             transform: rotate(180deg); }
   main .mainMenuContainer {
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@ main {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto;
       margin: 1px;
-      width: 93%;
+      width: 100%;
       height: 100%;
       color: #FFFDE3;
       font-family: 'Quicksand'; }
@@ -161,7 +161,7 @@ main {
             font-size: 16px;
             text-align: center; }
   main .mainAboutContainer {
-    width: 90%;
+    width: 80%;
     font-family: 'Quicksand';
     color: #FFFDE3;
     display: flex;
@@ -197,7 +197,7 @@ main {
           main .mainAboutContainer .history .historyDescription p img {
             width: 130px; }
   main .mainContactContainer {
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,7 +246,7 @@ main {
   main .mainOfertaContainer {
     margin-top: 80px;
     margin-bottom: 80px;
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,7 +319,7 @@ main {
         font-size: 16px;
         color: #13252f; }
   main .mainVoucherContainer {
-    width: 90%; }
+    width: 80%; }
     main .mainVoucherContainer .formContainer {
       margin-top: 80px;
       margin-bottom: 80px;
@@ -349,7 +349,7 @@ main {
         main .mainVoucherContainer .formContainer .formBox .form-control {
           background-color: #FFFDE3; }
   main .mainComplainContainer {
-    width: 90%;
+    width: 80%;
     color: #FFFDE3; }
     main .mainComplainContainer .formContainer {
       margin-top: 80px;
@@ -879,7 +879,7 @@ main {
       grid-row-gap: 10px;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto;
-      width: 93%;
+      width: 100%;
       height: 100%; }
       main .mainMenuContainer .pizzasContainer .pizzaItem {
         padding-top: 2px;
@@ -916,40 +916,34 @@ main {
       width: 100%; }
       main .mainAboutContainer .history .AmatoImg img {
         width: 55%; }
-    main .mainContactContainer {
-      width: 90%; }
-      main .mainContactContainer .formContainer {
-        width: 100%; }
-        main .mainContactContainer .formContainer .formTitle h3 {
-          font-size: 6vw; }
-        main .mainContactContainer .formContainer .formBox {
-          width: 70%; }
-          main .mainContactContainer .formContainer .formBox .row {
-            flex-direction: row; }
-    main .mainVoucherContainer {
-      width: 90%; }
-      main .mainVoucherContainer .formContainer .formTitle h3 {
+    main .mainContactContainer .formContainer {
+      width: 100%; }
+      main .mainContactContainer .formContainer .formTitle h3 {
         font-size: 6vw; }
-      main .mainVoucherContainer .formContainer .formBox {
+      main .mainContactContainer .formContainer .formBox {
         width: 70%; }
-        main .mainVoucherContainer .formContainer .formBox .row {
+        main .mainContactContainer .formContainer .formBox .row {
           flex-direction: row; }
-          main .mainVoucherContainer .formContainer .formBox .row .col label {
-            display: none; }
-    main .mainComplainContainer {
-      width: 90%; }
-      main .mainComplainContainer .formContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%; }
-        main .mainComplainContainer .formContainer .formTitle h3 {
-          font-size: 6vw; }
-        main .mainComplainContainer .formContainer .legalText .disclaimer {
-          font-size: 18px; }
-        main .mainComplainContainer .formContainer .claimContainer {
-          width: 70%; } }
+    main .mainVoucherContainer .formContainer .formTitle h3 {
+      font-size: 6vw; }
+    main .mainVoucherContainer .formContainer .formBox {
+      width: 70%; }
+      main .mainVoucherContainer .formContainer .formBox .row {
+        flex-direction: row; }
+        main .mainVoucherContainer .formContainer .formBox .row .col label {
+          display: none; }
+    main .mainComplainContainer .formContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%; }
+      main .mainComplainContainer .formContainer .formTitle h3 {
+        font-size: 6vw; }
+      main .mainComplainContainer .formContainer .legalText .disclaimer {
+        font-size: 18px; }
+      main .mainComplainContainer .formContainer .claimContainer {
+        width: 70%; } }
 
 footer {
   background-color: #CFE8A9;
