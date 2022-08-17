@@ -2,8 +2,7 @@ main{
     @include centrado;
     width: 100%;
     .mainContainer{
-        margin-top: 4%;
-        margin-bottom: 4%;
+        @include espaciadoSupIntMain;
         @include espaciadoLateral;
         height: 100%;
         display: flex;
@@ -64,8 +63,7 @@ main{
     .mainMenuContainer{
         @include espaciadoLateral;
         @include centrado;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        @include espaciadoSupIntMain;
         flex-direction: column;
         .textMenu{
             margin-bottom: 60px;
@@ -157,8 +155,7 @@ main{
         color: #FFFDE3;
         @include centrado;
         flex-direction: column;
-        margin-top: 60px;
-        margin-bottom: 90px;
+        @include espaciadoSupIntMain;
         .title{
             width: 100%;
             @include centrado;
@@ -191,10 +188,9 @@ main{
     .mainContactContainer{
         @include espaciadoLateral;
         @include centrado;
+        @include espaciadoSupIntMain;
         font-family: 'Quicksand';
         .formContainer{
-            margin-top: 80px;
-            margin-bottom: 80px;
             width: 100%;
             @include centrado;
             flex-direction: column;
@@ -246,8 +242,7 @@ main{
         }
     }
     .mainOfertaContainer{
-        margin-top: 80px;
-        margin-bottom: 80px;
+        @include espaciadoSupIntMain;
         @include espaciadoLateral;
         @include centrado;
         flex-direction: column;
@@ -334,9 +329,8 @@ main{
     }
     .mainVoucherContainer{
         @include espaciadoLateral;
+        @include espaciadoSupIntMain;
         .formContainer{
-            margin-top: 80px;
-            margin-bottom: 80px;
             @include centrado;
             flex-direction: column;
             color: #FFFDE3;
@@ -370,10 +364,9 @@ main{
     }
     .mainComplainContainer{
         @include espaciadoLateral;
+        @include espaciadoSupIntMain;
         color: #FFFDE3;
         .formContainer{
-            margin-top: 80px;
-            margin-bottom: 80px;
             font-family: 'Quicksand';
             width: 100%;
             .formTitle{
@@ -502,7 +495,6 @@ main{
     //575px
     @media (max-width: 575px){
         .mainContainer{
-            @include espaciadoLateral;
             height: 90vh;
             flex-direction: column-reverse;
             margin-bottom: 60px;
@@ -650,8 +642,7 @@ main{
     //576px
     @media (min-width: 576px){
         .mainContainer{
-            margin-top: 80px;
-            margin-bottom: 110px;
+            @include espaciadoSupIntMain;
             .rigthContainer{
                 width: 45%;
                 height: 45%;
@@ -1174,8 +1165,8 @@ main{
                 .pizzaItem{
                     padding-top: 2px;
                     padding-bottom: 10px;
-                    width: 320px;
-                    height: 430px;
+                    width: 100%;
+                    height: 100%;
                     border-radius: 20px;
                     img{
                         width: 80%;
