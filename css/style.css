@@ -676,7 +676,8 @@ main {
         width: 100%; }
         main .mainComplainContainer .formContainer .legalText .disclaimer {
           width: 90%;
-          font-size: 3vw; }
+          font-size: 3vw;
+          font-size: 2vw; }
       main .mainComplainContainer .formContainer .claimContainer {
         width: 100%; }
         main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante {
@@ -797,6 +798,8 @@ main {
         main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .basePrice {
           font-size: 4vw; }
     main .mainOfertaContainer .menuButton a {
+      font-size: 2vw; }
+    main .mainComplainContainer .formContainer .legalText .disclaimer {
       font-size: 2vw; } }
   @media (min-width: 992px) {
     main .mainMenuContainer .pizzasContainer {
@@ -817,29 +820,44 @@ main {
             font-size: 55%; }
           main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer .basePrice {
             font-size: 90%; }
-    main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem {
-      width: 80%;
-      height: 100%; }
-      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem img {
-        width: 70%; }
-      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem h5 {
-        font-size: 5vw; }
-      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem p {
-        font-size: 3vw; }
-      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer {
-        width: 95%;
-        justify-content: space-around; }
-        main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group {
-          width: 30%;
-          height: 50%; }
-          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .btn {
-            width: 50%;
+    main .mainOfertaContainer {
+      width: 80%; }
+      main .mainOfertaContainer .pizzaOfertaContainer {
+        width: 75%;
+        height: 305px; }
+        main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem {
+          display: grid;
+          grid-template-areas: "img h5" "img p" "orderContainer orderContainer";
+          width: 100%;
+          height: 100%;
+          text-align: center; }
+          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem img {
+            grid-area: img;
+            width: 80%; }
+          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem h5 {
+            grid-area: h5;
+            font-size: 4vw; }
+          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem p {
+            grid-area: p;
             font-size: 2vw; }
-          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .dropdown-menu {
-            font-size: 2vw; }
-        main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .basePrice {
-          font-size: 4vw; }
-    main .mainOfertaContainer .menuButton a {
+          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer {
+            grid-area: orderContainer;
+            width: 100%;
+            height: 100%;
+            justify-content: space-evenly; }
+            main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group {
+              width: 52%;
+              height: 90%; }
+              main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .btn {
+                width: 50%;
+                font-size: 2vw; }
+              main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .dropdown-menu {
+                font-size: 2vw; }
+            main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .basePrice {
+              font-size: 3vw; }
+      main .mainOfertaContainer .menuButton a {
+        font-size: 2vw; }
+    main .mainComplainContainer .formContainer .legalText .disclaimer {
       font-size: 2vw; } }
   @media (min-width: 1200px) {
     main .mainContainer .leftContainer {
@@ -862,30 +880,43 @@ main {
           font-size: 25px; }
       main .mainMenuContainer .pizzasContainer .pizzaItem .orderContainer .basePrice {
         font-size: 22px; }
-    main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem {
-      width: 80%;
-      height: 100%; }
-      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem img {
-        width: 70%; }
-      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem h5 {
-        font-size: 5vw; }
-      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem p {
-        font-size: 3vw; }
-      main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer {
-        width: 95%;
-        justify-content: space-around; }
-        main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group {
-          width: 30%;
-          height: 50%; }
-          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .btn {
-            width: 50%;
+    main .mainOfertaContainer {
+      width: 80%; }
+      main .mainOfertaContainer .pizzaOfertaContainer {
+        width: 75%;
+        height: 305px; }
+        main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem {
+          display: grid;
+          grid-template-areas: "img h5" "img p" "orderContainer orderContainer";
+          width: 100%;
+          height: 100%;
+          text-align: center; }
+          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem img {
+            grid-area: img;
+            width: 80%; }
+          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem h5 {
+            grid-area: h5;
+            font-size: 4vw; }
+          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem p {
+            grid-area: p;
             font-size: 2vw; }
-          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .dropdown-menu {
-            font-size: 2vw; }
-        main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .basePrice {
-          font-size: 4vw; }
-    main .mainOfertaContainer .menuButton a {
-      font-size: 2vw; } }
+          main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer {
+            grid-area: orderContainer;
+            width: 100%;
+            height: 100%;
+            justify-content: space-evenly; }
+            main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group {
+              width: 52%;
+              height: 90%; }
+              main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .btn {
+                width: 50%;
+                font-size: 2vw; }
+              main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .btn-group .dropdown-menu {
+                font-size: 2vw; }
+            main .mainOfertaContainer .pizzaOfertaContainer .pizzaOfertaItem .orderContainer .basePrice {
+              font-size: 3vw; }
+      main .mainOfertaContainer .menuButton a {
+        font-size: 2vw; } }
   @media (min-width: 1400px) {
     main .mainMenuContainer .textMenu h3 {
       font-size: 6vw; }

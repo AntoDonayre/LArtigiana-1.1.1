@@ -800,6 +800,7 @@ main{
                     .disclaimer{
                         width: 90%;
                         font-size: 3vw;
+                        @include subtitleSizeA;
                     }
                 }
                 .claimContainer{
@@ -991,6 +992,15 @@ main{
                 }
             }
         }
+        .mainComplainContainer{
+            .formContainer{
+                .legalText{
+                    .disclaimer{
+                        @include subtitleSizeA;
+                    }
+                }
+            }
+        }
     }
     //992px
     @media (min-width: 992px){
@@ -1027,25 +1037,39 @@ main{
             }
         }
         .mainOfertaContainer{
+            @include espaciadoLateral;
             .pizzaOfertaContainer{
+                width: 75%;
+                height: 305px;
                 .pizzaOfertaItem{
-                    width: 80%;
+                    display: grid;
+                    grid-template-areas:
+                    "img h5"
+                    "img p"
+                    "orderContainer orderContainer";
+                    width: 100%;
                     height: 100%;
+                    text-align: center;
                     img{
-                        width: 70%;
+                        grid-area: img;
+                        width: 80%;
                     }
                     h5{
-                        font-size: 5vw;
+                        grid-area: h5;
+                        font-size: 4vw;
                     }
                     p{
-                        font-size: 3vw;
+                        grid-area: p;
+                        font-size: 2vw;
                     }
                     .orderContainer{
-                        width: 95%;
-                        justify-content: space-around;
+                        grid-area: orderContainer;
+                        width: 100%;
+                        height: 100%;
+                        justify-content: space-evenly;
                         .btn-group{
-                            width: 30%;
-                            height: 50%;
+                            width: 52%;
+                            height: 90%;
                             .btn{
                                 width: 50%;
                                 font-size: 2vw;
@@ -1055,7 +1079,7 @@ main{
                             }
                         }
                         .basePrice{
-                            font-size: 4vw;
+                            font-size: 3vw;
                         }
                     }
                 }
@@ -1063,6 +1087,15 @@ main{
             .menuButton{
                 a{
                     font-size: 2vw;
+                }
+            }
+        }
+        .mainComplainContainer{
+            .formContainer{
+                .legalText{
+                    .disclaimer{
+                        @include subtitleSizeA;
+                    }
                 }
             }
         }
@@ -1110,25 +1143,39 @@ main{
             }
         }
         .mainOfertaContainer{
+            @include espaciadoLateral;
             .pizzaOfertaContainer{
+                width: 75%;
+                height: 305px;
                 .pizzaOfertaItem{
-                    width: 80%;
+                    display: grid;
+                    grid-template-areas:
+                    "img h5"
+                    "img p"
+                    "orderContainer orderContainer";
+                    width: 100%;
                     height: 100%;
+                    text-align: center;
                     img{
-                        width: 70%;
+                        grid-area: img;
+                        width: 80%;
                     }
                     h5{
-                        font-size: 5vw;
+                        grid-area: h5;
+                        font-size: 4vw;
                     }
                     p{
-                        font-size: 3vw;
+                        grid-area: p;
+                        font-size: 2vw;
                     }
                     .orderContainer{
-                        width: 95%;
-                        justify-content: space-around;
+                        grid-area: orderContainer;
+                        width: 100%;
+                        height: 100%;
+                        justify-content: space-evenly;
                         .btn-group{
-                            width: 30%;
-                            height: 50%;
+                            width: 52%;
+                            height: 90%;
                             .btn{
                                 width: 50%;
                                 font-size: 2vw;
@@ -1138,7 +1185,7 @@ main{
                             }
                         }
                         .basePrice{
-                            font-size: 4vw;
+                            font-size: 3vw;
                         }
                     }
                 }
