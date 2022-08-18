@@ -387,6 +387,15 @@ main{
             .claimContainer{
                 @include centrado;
                 flex-direction: column;
+                input{
+                    background-color: #FFFDE3;
+                }
+                select{
+                    background-color: #FFFDE3;
+                }
+                textarea{
+                    background-color: #FFFDE3;
+                }
                 .identificacionDelReclamante{
                     margin-top: 30px;
                     padding: 2%;

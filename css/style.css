@@ -378,6 +378,12 @@ main {
         justify-content: center;
         align-items: center;
         flex-direction: column; }
+        main .mainComplainContainer .formContainer .claimContainer input {
+          background-color: #FFFDE3; }
+        main .mainComplainContainer .formContainer .claimContainer select {
+          background-color: #FFFDE3; }
+        main .mainComplainContainer .formContainer .claimContainer textarea {
+          background-color: #FFFDE3; }
         main .mainComplainContainer .formContainer .claimContainer .identificacionDelReclamante {
           margin-top: 30px;
           padding: 2%;
