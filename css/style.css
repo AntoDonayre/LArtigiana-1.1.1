@@ -36,7 +36,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
   main .mainContainer {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -79,8 +80,7 @@ main {
         justify-content: center;
         align-items: center;
         width: 660px;
-        height: 660px;
-        background: radial-gradient(closest-side, #13252f, #FFFDE3, #13252f); }
+        height: 660px; }
         main .mainContainer .rigthContainer .imgContainer img {
           width: 620px;
           transition: 2s; }
@@ -179,7 +179,7 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 60px; }
+      margin-bottom: 2vw; }
       main .mainAboutContainer .title h3 {
         width: 100%;
         display: flex;
@@ -467,6 +467,8 @@ main {
           background-color: #FFFDE3; }
   @media (max-width: 575px) {
     main .mainContainer {
+      margin-top: 4%;
+      margin-bottom: 4%;
       height: 90vh;
       flex-direction: column-reverse;
       margin-bottom: 60px; }
@@ -476,12 +478,14 @@ main {
         display: flex;
         justify-content: center;
         align-items: center; }
-        main .mainContainer .leftContainer .espDelDia .EspecialNom {
-          font-size: 10vw; }
-        main .mainContainer .leftContainer .espDelDia .nomPizza {
-          font-size: 10vw; }
-        main .mainContainer .leftContainer .espDelDia .pizzaDescrip {
-          font-size: 6vw; }
+        main .mainContainer .leftContainer .espDelDia {
+          text-align: center; }
+          main .mainContainer .leftContainer .espDelDia .EspecialNom {
+            font-size: 10vw; }
+          main .mainContainer .leftContainer .espDelDia .nomPizza {
+            font-size: 10vw; }
+          main .mainContainer .leftContainer .espDelDia .pizzaDescrip {
+            font-size: 6vw; }
       main .mainContainer .rigthContainer {
         width: 97%; }
         main .mainContainer .rigthContainer .imgContainer {
@@ -562,36 +566,40 @@ main {
             width: 100%; } }
   @media (min-width: 576px) {
     main .mainContainer {
+      height: 100%;
       margin-top: 4%;
-      margin-bottom: 4%; }
+      margin-bottom: 4%;
+      flex-direction: column-reverse; }
       main .mainContainer .rigthContainer {
-        width: 45%;
-        height: 45%; }
+        width: 97%;
+        margin-bottom: 9%; }
         main .mainContainer .rigthContainer .imgContainer {
           width: 100%;
           height: 100%; }
           main .mainContainer .rigthContainer .imgContainer img {
-            width: 100%;
-            height: 100%; }
+            width: 80%; }
       main .mainContainer .leftContainer {
-        width: 45%;
-        height: 45%; }
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
         main .mainContainer .leftContainer .espDelDia {
+          text-align: center;
           width: 100%;
           height: 100%; }
           main .mainContainer .leftContainer .espDelDia .EspecialNom {
             width: 100%;
-            height: 100%; }
+            height: 100%;
+            font-size: 10vw; }
           main .mainContainer .leftContainer .espDelDia .nomPizza {
             width: 100%;
-            height: 100%; }
+            height: 100%;
+            font-size: 10vw; }
           main .mainContainer .leftContainer .espDelDia .pizzaDescrip {
             width: 100%;
             height: 100%;
-            font-size: 13px; }
-          main .mainContainer .leftContainer .espDelDia .btn {
-            width: 60%;
-            height: 40%; }
+            font-size: 6vw; }
     main .mainMenuContainer .textMenu {
       width: 90%; }
       main .mainMenuContainer .textMenu h3 {
@@ -627,7 +635,7 @@ main {
     main .mainAboutContainer .title {
       width: 100%; }
       main .mainAboutContainer .title h3 {
-        font-size: 10vw; }
+        font-size: 6vw; }
     main .mainAboutContainer .history {
       flex-direction: column;
       width: 100%; }
@@ -641,7 +649,7 @@ main {
         width: 100%; }
         main .mainContactContainer .formContainer .formTitle h3 {
           width: 100%;
-          font-size: 10vw; }
+          font-size: 6vw; }
       main .mainContactContainer .formContainer .formBox {
         width: 100%; }
         main .mainContactContainer .formContainer .formBox .row {
@@ -653,7 +661,7 @@ main {
       main .mainVoucherContainer .formContainer .formTitle {
         width: 100%; }
         main .mainVoucherContainer .formContainer .formTitle h3 {
-          font-size: 10vw; }
+          font-size: 6vw; }
       main .mainVoucherContainer .formContainer .formBox {
         width: 100%; }
         main .mainVoucherContainer .formContainer .formBox .row {
@@ -663,7 +671,7 @@ main {
       main .mainComplainContainer .formContainer .formTitle {
         width: 100%; }
         main .mainComplainContainer .formContainer .formTitle h3 {
-          font-size: 10vw; }
+          font-size: 6vw; }
       main .mainComplainContainer .formContainer .legalText {
         width: 100%; }
         main .mainComplainContainer .formContainer .legalText .disclaimer {
@@ -708,7 +716,8 @@ main {
   @media (min-width: 768px) {
     main .mainContainer {
       margin-top: 80px;
-      margin-bottom: 110px; }
+      margin-bottom: 110px;
+      flex-direction: row; }
       main .mainContainer .rigthContainer {
         width: 45%;
         height: 45%; }
@@ -722,21 +731,21 @@ main {
         width: 45%;
         height: 45%; }
         main .mainContainer .leftContainer .espDelDia {
+          text-align: start;
           width: 100%;
           height: 100%; }
           main .mainContainer .leftContainer .espDelDia .EspecialNom {
             width: 100%;
-            height: 100%; }
+            height: 100%;
+            font-size: 5vw; }
           main .mainContainer .leftContainer .espDelDia .nomPizza {
             width: 100%;
-            height: 100%; }
+            height: 100%;
+            font-size: 5vw; }
           main .mainContainer .leftContainer .espDelDia .pizzaDescrip {
             width: 100%;
             height: 100%;
-            font-size: 13px; }
-          main .mainContainer .leftContainer .espDelDia .btn {
-            width: 60%;
-            height: 40%; }
+            font-size: 3vw; }
     main .mainMenuContainer .pizzasContainer {
       grid-template-columns: repeat(2, 1fr); }
       main .mainMenuContainer .pizzasContainer .pizzaItem {

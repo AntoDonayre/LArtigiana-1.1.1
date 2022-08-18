@@ -1,6 +1,7 @@
 main{
     @include centrado;
     width: 100%;
+    height: 100%;
     .mainContainer{
         @include espaciadoSupIntMain;
         @include espaciadoLateral;
@@ -49,7 +50,6 @@ main{
                 @include centrado;
                 width: 660px;
                 height: 660px;
-                background: radial-gradient(closest-side, #13252f, #FFFDE3, #13252f);
                 img{
                     width: 620px;
                     transition: 2s;
@@ -159,7 +159,7 @@ main{
         .title{
             width: 100%;
             @include centrado;
-            margin-bottom: 60px;
+            margin-bottom: 2vw;
             h3{
                 width: 100%;
                 @include centrado;
@@ -495,6 +495,7 @@ main{
     //575px
     @media (max-width: 575px){
         .mainContainer{
+            @include espaciadoSupIntMain;
             height: 90vh;
             flex-direction: column-reverse;
             margin-bottom: 60px;
@@ -503,6 +504,7 @@ main{
                 height: 50%;
                 @include centrado;
                 .espDelDia{
+                    text-align: center;
                     .EspecialNom{
                         font-size: 10vw;
                     }
@@ -642,41 +644,42 @@ main{
     //576px
     @media (min-width: 576px){
         .mainContainer{
+            height: 100%;
             @include espaciadoSupIntMain;
+            flex-direction: column-reverse;
             .rigthContainer{
-                width: 45%;
-                height: 45%;
+                width: 97%;
+                margin-bottom: 9%;
                 .imgContainer{
                     width: 100%;
                     height: 100%;
                     img{
-                        width: 100%;
-                        height: 100%;
+                        width: 80%;
                     }
                 }
             }
             .leftContainer{
-                width: 45%;
-                height: 45%;
+                width: 100%;
+                height: 50%;
+                @include centrado;
                 .espDelDia{
+                    text-align: center;
                     width: 100%;
                     height: 100%;
                     .EspecialNom{
                         width: 100%;
                         height: 100%;
+                        font-size: 10vw; 
                     }
                     .nomPizza{
                         width: 100%;
                         height: 100%;
+                        font-size: 10vw;
                     }
                     .pizzaDescrip{
                         width: 100%;
                         height: 100%;
-                        font-size: 13px;
-                    }
-                    .btn{
-                        width: 60%;
-                        height: 40%;
+                        font-size: 6vw;
                     }
                 }
             }
@@ -731,7 +734,7 @@ main{
             .title{
                 width: 100%;
                 h3{
-                    font-size: 10vw;
+                    font-size: 6vw;
                 }
             }
             .history{
@@ -752,7 +755,7 @@ main{
                     width: 100%;
                     h3{
                         width: 100%;
-                        font-size: 10vw;
+                        font-size: 6vw;
                     }
                 }
                 .formBox{
@@ -772,7 +775,7 @@ main{
                 .formTitle{
                     width: 100%;
                     h3{
-                        font-size: 10vw;
+                        font-size: 6vw;
                     }
                 }
                 .formBox{
@@ -789,7 +792,7 @@ main{
                 .formTitle{
                     width: 100%;
                     h3{
-                        font-size: 10vw;
+                        font-size: 6vw;
                     }
                 }
                 .legalText{
@@ -865,6 +868,7 @@ main{
         .mainContainer{
             margin-top: 80px;
             margin-bottom: 110px;
+            flex-direction: row;
             .rigthContainer{
                 width: 45%;
                 height: 45%;
@@ -881,24 +885,23 @@ main{
                 width: 45%;
                 height: 45%;
                 .espDelDia{
+                    text-align: start;
                     width: 100%;
                     height: 100%;
                     .EspecialNom{
                         width: 100%;
                         height: 100%;
+                        font-size: 5vw;
                     }
                     .nomPizza{
                         width: 100%;
                         height: 100%;
+                        font-size: 5vw;
                     }
                     .pizzaDescrip{
                         width: 100%;
                         height: 100%;
-                        font-size: 13px;
-                    }
-                    .btn{
-                        width: 60%;
-                        height: 40%;
+                        font-size: 3vw;
                     }
                 }
             }
