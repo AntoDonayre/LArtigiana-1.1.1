@@ -649,6 +649,46 @@ main{
                 }
             }
         }
+        .mainOfertaContainer{
+            .pizzaOfertaContainer{
+                .pizzaOfertaItem{
+                    width: 80%;
+                    height: 100%;
+                    img{
+                        width: 70%;
+                    }
+                    h5{
+                        font-size: 5vw;
+                    }
+                    p{
+                        font-size: 3vw;
+                    }
+                    .orderContainer{
+                        width: 95%;
+                        justify-content: space-around;
+                        .btn-group{
+                            width: 30%;
+                            height: 50%;
+                            .btn{
+                                width: 50%;
+                                font-size: 2vw;
+                            }
+                            .dropdown-menu{
+                                font-size: 2vw;
+                            }
+                        }
+                        .basePrice{
+                            font-size: 4vw;
+                        }
+                    }
+                }
+            }
+            .menuButton{
+                a{
+                    font-size: 2vw;
+                }
+            }
+        }
     }
     //576px
     @media (min-width: 576px){
@@ -1152,10 +1192,11 @@ main{
             }
         }
         .mainOfertaContainer{
+            width: 80%;
             @include espaciadoLateral;
             .pizzaOfertaContainer{
                 width: 75%;
-                height: 305px;
+                height: auto;
                 .pizzaOfertaItem{
                     display: grid;
                     grid-template-areas:
@@ -1166,6 +1207,7 @@ main{
                     height: 100%;
                     text-align: center;
                     img{
+                        margin: 3%;
                         grid-area: img;
                         width: 80%;
                     }
@@ -1179,6 +1221,7 @@ main{
                     }
                     .orderContainer{
                         grid-area: orderContainer;
+                        margin: 1%;
                         width: 100%;
                         height: 100%;
                         justify-content: space-evenly;
@@ -1328,6 +1371,29 @@ main{
                 }
                 .claimContainer{
                     width: 70%;
+                }
+            }
+        }
+        .mainOfertaContainer{
+            .pizzaOfertaContainer{
+                .pizzaOfertaItem{
+                    .orderContainer{
+                        .btn-group{
+                            width: 30%;
+                            height: 70%;
+                            .btn{
+                                @include subtitleSize;
+                            }
+                            .dropdown-menu{
+                                @include subtitleSize;
+                            }
+                        }
+                    }
+                }
+            }
+            .menuButton{
+                .btn{
+                    @include subtitleSize;
                 }
             }
         }
