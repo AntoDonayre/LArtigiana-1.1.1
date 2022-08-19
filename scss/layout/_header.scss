@@ -38,4 +38,18 @@ header{
             }
         }
     }
+    //575px
+    @media (max-width: 575px){
+        .headerContainer{
+            .navbar{
+                .container-fluid{
+                    .navbar-brand{
+                        img{
+                            width: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
