@@ -3,22 +3,17 @@ footer{
     width: 100%;
     height: 280px;
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
+    @include centrado;
     .footerContainer{
         width: 90%;
         height: 100%;
-        display: flex;
+        @include space-around;
         flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
         .otherContainer{
             width: 290px;
             height: 60%;
-            display: flex;
+            @include space-evenly;
             flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
             .d-flex{
                 width: 98%;
             }
@@ -45,9 +40,7 @@ footer{
             }
             .iconsRedes{
                 margin-top: 19px;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
+                @include space-around;
                 .fa-brands{
                     color: #13252f;
                 }
@@ -73,10 +66,8 @@ footer{
             }
             .socialContainer{
                 width: 100%;
-                display: flex;
+                @include space-evenly;
                 flex-direction: row;
-                justify-content: space-evenly;
-                align-items: center;
                 .textRedes{
                     h5{
                         font-size: 17px;
@@ -110,10 +101,8 @@ footer{
             }
             .socialContainer{
                 width: 100%;
-                display: flex;
+                @include space-evenly;
                 flex-direction: row;
-                justify-content: space-evenly;
-                align-items: center;
                 .textRedes{
                     h5{
                         font-size: 17px;

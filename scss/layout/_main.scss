@@ -6,9 +6,7 @@ main{
         @include espaciadoSupIntMain;
         @include espaciadoLateral;
         height: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @include space-around;
         .leftContainer{
             font-family: 'Quicksand';
             .espDelDia{
@@ -88,9 +86,7 @@ main{
             color: #FFFDE3;
             font-family: 'Quicksand';
             .pizzaItem{
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
+                @include space-evenly;
                 flex-direction: column;
                 padding-top: 2px;
                 padding-bottom: 10px;
@@ -121,11 +117,9 @@ main{
                     text-align: center;
                 }
                 .orderContainer{
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
+                    @include space-around;
                     flex-direction: row;
-                    width: 95%;
+                    width: 98%;
                     height: auto;
                     .btn-group{
                         width: 139px;
@@ -169,10 +163,8 @@ main{
         }
         .history{
             width: 80%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
+            @include space-around;
+            flex-direction: column;
             .historyDescription{
                 padding: 2%;
                 p{
@@ -262,9 +254,7 @@ main{
             width: 100%;
             @include centrado;
             .pizzaOfertaItem{
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
+                @include space-evenly;
                 flex-direction: column;
                 background-color: rgba(207,232,169, 0.3);
                 border-radius: 20px;
@@ -290,10 +280,8 @@ main{
                 .orderContainer{
                     width: 60%;
                     height: 10%;
-                    display: flex;
+                    @include space-evenly;
                     flex-direction: row;
-                    justify-content: space-evenly;
-                    align-items: center;
                     .btn-group{
                         width: 139px;
                         height: 38px;
@@ -399,10 +387,8 @@ main{
                 .identificacionDelReclamante{
                     margin-top: 30px;
                     padding: 2%;
-                    display: flex;
+                    @include centrado;
                     flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
                     background-color: rgba(207,232,169, 0.5);
                     width: 60%;
                     border-radius: 20px;
